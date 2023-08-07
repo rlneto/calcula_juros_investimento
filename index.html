@@ -7,6 +7,48 @@
 		<script src="script.js" defer></script>
 		<link rel="stylesheet" href="shared.css" />
 		<link rel="stylesheet" href="main.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
-	<body></body>
+	<body>
+		<section id="explain">
+            <h1>Calculadora de retorno sobre aplicações mensais</h1>
+            <br>
+            <p>Procedimento:
+                <ol>
+                    <li>Informe o valor a ser aplicado mensalmente</li>
+                    <li>Informe a taxa de juros ao mês, lembrando que o cálculo é para juros compostos</li>
+                    <li>Informe o total de meses durante os quais será feita a aplicação</li>
+                    <li>Aperte o botão calcular para obter o montante ao final do período</li>
+                </ol>
+            </p>
+            <br><br>
+        </section>
+        <section id="forms">
+            <form id="dados">
+                <label for="pmt">Aplicação mensal:</label>
+                <input type="number" id="pmt" name="pmt">
+                <span>R$</span><br><br>
+                <label for="juros">Taxa de juros em % a.m:</label>
+                <input type="number" id="juros" name="juros">
+                <span>%</span><br><br>
+                <label for="meses">Período:</label>
+                <input type="number" id="meses" name="meses">
+                <span>meses</span><br><br>
+                <button type="button" id="calcular">Calcular!</button>
+            </form>
+		</section>
+        <br><br>
+        <section id="resultados">
+            <p></p>
+        </section>
+        <footer>
+            <p>
+                Aplicação desenvolvida por Rudolfo Lange Neto
+            </p>
+            <p>
+                <a href="http://www.linkedin.com/in/rudolfoneto"><img alt="Icon" class="links" src="linkedin.png"></a>
+                <a href="https://github.com/rlneto/calcula_juros_investimento"><img alt="Icon" class="links" src="github_ico.png"></a>
+            </p>
+        </footer>
+	</body>
 </html>

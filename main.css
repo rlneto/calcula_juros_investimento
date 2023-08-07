@@ -1,0 +1,65 @@
+* {
+	font-family: "Roboto";
+	margin: 0px;
+}
+body {
+	color: rgb(216, 225, 172);
+	font-weight: bold;
+}
+
+input {
+	width: 50px;
+}
+
+button {
+	background-color: lightgreen;
+	font-weight: bold;
+	padding: 8px;
+	border-radius: 5px;
+	border-style: none;
+	text-align: center;
+}
+
+button:hover {
+	background-color: green;
+	color: white;
+}
+
+#explain {
+	margin: 0 auto;
+	width: 50vw;
+	min-width: 500px;
+}
+
+input {
+	background-color: white;
+	border-style: none;
+	border-radius: 2px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#forms {
+	margin-left: 30vw;
+	margin: 0 auto;
+	background-color: #444;
+	border-radius: 10px;
+	width: 300px;
+	padding: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#resultados {
+	color: lightgreen;
+	width: 500px;
+	text-align: center;
+	min-width: 300px;
+	opacity: 0;
+	transition: opacity 1s;
+	margin: 0 auto;
+}
