@@ -17,7 +17,7 @@ const calculaJuros = (pmt, juros, meses) => {
 
 const geraResultado = (pmt, juros, meses) => {
 	resultados.style.opacity = 0;
-	const resultado = `Resultado: O montante da aplicação de ${pmt} mensais ao longo de ${meses} meses, a juros de ${juros}% ao mês, é de ${calculaJuros(
+	const resultado = `Resultado: O montante da aplicação de ${pmt} R$ mensais ao longo de ${meses} meses, a juros de ${juros}% ao mês, é de ${calculaJuros(
 		pmt,
 		juros,
 		meses
